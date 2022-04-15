@@ -1,0 +1,75 @@
+#body{transition:1s;background-color:white;overflow:hidden;}
+.container{
+    position:absolute;
+    height:250pt;width:200pt;
+    margin:auto;display:flex;
+    top:0;right:0;left:0;bottom:0;
+    background-color:transparent;
+    border-radius:10px;
+    transform:scale(1.2);
+    justify-content:center;align-items:center;
+    
+}
+#display{
+    position:absolute;
+    height:70px;
+    width:190pt;
+    top:5pt;
+    background-color:black;
+    border-radius:10px;
+    color:orange;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-weight:900;
+    overflow:scroll;
+    font-size:30px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+#dsub,#d1,#d2,#d3,#dplus{
+    position:absolute;
+    height:40px;width:40px;
+    top:30%;
+}
+#dplus{left:2%;}
+#d1{left:22%;}
+#d2{left:42%;}
+#d3{left:62%;}
+#dsub{left:82%;}
+#dpro,#d4,#d5,#d6,#dquo{
+    position:absolute;
+    height:40px;width:40px;
+    top:50%;
+}
+#dquo{left:2%;}
+#d4{left:22%;}
+#d5{left:42%;}
+#d6{left:62%;}
+#dpro{left:82%;}
+#dpoint,#d7,#d8,#d9,#clearL{
+    position:absolute;
+    height:40px;width:40px;
+    top:70%;
+}
+#dpoint{left:2%;}
+#d7{left:22%;}
+#d8{left:42%;}
+#d9{left:62%;}
+#clearL{left:82%;}
+#d0,#dequal,#clear{
+position:absolute;
+    height:40px;width:65px;
+    top:87%;
+}
+#d0{left:9%;}
+#dequal{left:38%;}
+#clear{left:67%;}
+button{transition:.1s;color:white;border-radius:50px;border:0;outline:none;background-color:#00a1ff;font-weight:900;
+    font-family: 'Saira Semi Condensed', sans-serif;}
+button:active{background-color:black;color:white;}
+#mode{
+    position:absolute;
+    bottom:-10%;
+    width:100%;
+}

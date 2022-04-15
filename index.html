@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head style="overflow:hidden;">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+        <title>Calculator</title>
+        <link href="calculator.css" rel="stylesheet">
+        <script src="calculator.js"></script>
+    </head>
+    <body id="body">
+        <div class="container">
+            <div id="display"></div>
+            <button id="d0" onclick="join('0')">0</button>
+            <button id="d1" onclick="join('1')">1</button>
+            <button id="d2" onclick="join('2')">2</button>
+            <button id="d3" onclick="join('3')">3</button>
+            <button id="d4" onclick="join('4')">4</button>
+            <button id="d5" onclick="join('5')">5</button>
+            <button id="d6" onclick="join('6')">6</button>
+            <button id="d7" onclick="join('7')">7</button>
+            <button id="d8" onclick="join('8')">8</button>
+            <button id="d9" onclick="join('9')">9</button>    
+            <button id="dpoint" onclick="join('.')">•</button>    
+            <button id="dplus" onclick="join('+')">+</button>
+            <button id="dsub" onclick="join('-')">-</button>
+            <button id="dpro" onclick="join('*')">x</button>
+            <button id="dquo" onclick="join('/')">/</button>
+            <button id="dequal" onclick="equal()">=</button>
+            <button id="clear" onclick="document.getElementById('display').innerHTML='';navigator.vibrate(100);">C</button>    
+            <button id="clearL" onclick="clearL()"><</button>    
+            <button id="mode" onclick="change()"></button>
+            </div>
+    </body>
+</html>
